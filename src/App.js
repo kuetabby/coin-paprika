@@ -1,8 +1,6 @@
 import React, { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
-import HomePage from './Home'
-
 const PaprikaPage = lazy(() => import('./Paprika'))
 const SelectPaprikaPage = lazy(() => import('./Paprika/SelectPaprika'))
 
