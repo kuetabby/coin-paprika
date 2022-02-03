@@ -37,7 +37,7 @@ const SelectPaprikaPage = () => {
                 <div>Coin Detail</div>
             </header>
             <div style={{ width: '100%', height: '100vh', padding: '5px' }}>
-                <Card title="Coin Detail" loading={loading} style={{ width: '75%', height: 'fit-content', margin: '10px auto', border: '2px solid #F3F7FB', borderRadius: '20px', background: 'white' }} >
+                <Card title="Coin Detail" loading={loading} className='card-wrapper'>
                     <Row gutter={16}>
                         <ListItem title="ID" value={dataPaprika?.id} defaultValue="ID" />
                         <ListItem title="Name" value={dataPaprika?.name} defaultValue="Name" />
