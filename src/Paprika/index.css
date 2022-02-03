@@ -1,0 +1,23 @@
+.ant-card-body {
+  padding: 0px 1px;
+}
+
+.ant-table-thead > tr > th {
+  background: #3783c6;
+  color: white;
+}
+
+.ant-card-head-title {
+  color: #3783c6;
+}
+
+.ant-input-group .ant-input {
+}
+
+@media screen and (max-width: 700px) {
+  .ant-card,
+  .ant-card-bordered {
+    overflow: auto;
+    overflow-x: scroll;
+  }
+}

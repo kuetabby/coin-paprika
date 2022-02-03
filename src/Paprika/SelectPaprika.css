@@ -1,0 +1,18 @@
+.list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .list-wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+  .ant-card,
+  .ant-card-bordered {
+    overflow: auto;
+    overflow-x: scroll;
+  }
+}
