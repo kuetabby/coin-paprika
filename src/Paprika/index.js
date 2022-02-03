@@ -122,7 +122,7 @@ const PaprikaPage = () => {
 
   return (
     <div style={{ width: '100%', height: '100vh', backgroundColor: '#F3F7FB' }} >
-      <div style={{ width: '75%', height: 'fit-content', minHeight: '100vh', margin: 'auto' }}>
+      <div className='main-wrapper'>
         <Card title="Coin List" style={{ borderWidth: '2px', margin: '10px' }} >
           <div className='filter-wrapper' >
             <Select
