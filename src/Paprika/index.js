@@ -134,7 +134,7 @@ const PaprikaPage = () => {
               <Option value="id">ID</Option>
               <Option value="name">Name</Option>
             </Select>
-            <Input addonBefore={<SearchOutlined />} style={{ marginLeft: '1em' }} placeholder='Search by Name' value={searchText} onChange={handleSearchChange} />
+            <Input addonBefore={<SearchOutlined />} style={{ marginLeft: '1em' }} placeholder={`Search by ${filterPaprika}`} value={searchText} onChange={handleSearchChange} />
             <Button type="primary" style={{ marginLeft: '1em' }} onClick={handleSearch} >Search</Button>
           </div>
           <Table className='ant-card-body' columns={columns} loading={loading} dataSource={dataPaprika} style={{ width: '100%' }} />
