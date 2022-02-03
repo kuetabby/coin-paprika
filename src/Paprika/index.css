@@ -14,10 +14,20 @@
 .ant-input-group .ant-input {
 }
 
+.filter-wrapper {
+  display: flex;
+  width: 50%;
+  margin: 0.5rem;
+}
+
 @media screen and (max-width: 700px) {
   .ant-card,
   .ant-card-bordered {
     overflow: auto;
     overflow-x: scroll;
+  }
+
+  .filter-wrapper {
+    width: fit-content;
   }
 }
